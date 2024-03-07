@@ -1,10 +1,10 @@
 import './App.css';
-import Variables from './Components/JavaScript-refresh/Veriables/Variables';
+import Operators from './Components/JavaScript-refresh/Operators/Operators';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Variables/>
+      <Operators/>
       </header>
     </div>
   );
