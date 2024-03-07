@@ -2,6 +2,9 @@ import React from 'react'
 import Export from './Export'
 export default function Import() {
   return (
-   <Export/>
+   <div>
+    i'm import file. Export file exported in me.
+    <Export/>
+   </div>
   )
 }
