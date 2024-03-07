@@ -1,7 +1,7 @@
 import React from 'react'
-
+import Export from './Export'
 export default function Import() {
   return (
-    <div>Import</div>
+   <Export/>
   )
 }
