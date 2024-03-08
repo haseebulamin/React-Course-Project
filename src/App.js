@@ -1,10 +1,10 @@
 import './App.css';
-import Operators from './Components/JavaScript-refresh/Operators/Operators';
+import Function from './Components/JavaScript-refresh/Function/Function';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Operators/>
+      <Function/>
       </header>
     </div>
   );
