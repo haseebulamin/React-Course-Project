@@ -20,18 +20,18 @@ export default function Function() {
     {
         console.log(msg)
     }
-    const arrowwithreturn = (msg)=> // arrow function
+    const arrowwithreturn = (msg)=> // arrow function with return 
     {
         return msg;
     }
     
-    greet();
-    para("Alex","how are you!");
-    para("Tom");
-    const rtrn = returning("Hasii","just focus on work.");
+    greet();            // simple function
+    para("Alex","how are you!");  // function with parameter
+    para("Tom");             // function with default parameter
+    const rtrn = returning("Hasii","just focus on work.");  // returning function
     console.log(rtrn);
-    arrowFunc("I'm arrow function.");
-    const arrow = arrowwithreturn("arrow with return!");
+    arrowFunc("I'm arrow function."); // arrow function
+    const arrow = arrowwithreturn("arrow with return!"); // arrow function with return 
     console.log(arrow);
   return (
     <div>
