@@ -6,6 +6,8 @@ export default function ObjectClasses() {
         age: 18
     }
     console.log(student);
+    console.log(student.name);
+    console.log(student.age);
   return (
     <div>
         Object-classes
