@@ -20,6 +20,10 @@ export default function Function() {
     {
         console.log(msg)
     }
+    const arrowwithreturn = (msg)=> // arrow function
+    {
+        return msg;
+    }
     
     greet();
     para("Alex","how are you!");
@@ -27,7 +31,8 @@ export default function Function() {
     const rtrn = returning("Hasii","just focus on work.");
     console.log(rtrn);
     arrowFunc("I'm arrow function.");
-
+    const arrow = arrowwithreturn("arrow with return!");
+    console.log(arrow);
   return (
     <div>
         Function
@@ -36,6 +41,7 @@ export default function Function() {
             <li>Function With parameter</li>
             <li>Returning function</li>
             <li>Arrow function</li>
+            <li>Arrow function with return</li>
         </ol>
     </div>
   )
