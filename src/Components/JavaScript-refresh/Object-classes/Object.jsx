@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ObjectClasses() {
+export default function Object() {
     const student = {
         name: "Haseeb Ul Amin",
         age: 18,
@@ -10,13 +10,17 @@ export default function ObjectClasses() {
             console.log(this.role);
         }
     }
+
     console.log(student);
     console.log(student.name);
     console.log(student.age);
     student.greet("Hello React!");
+
   return (
     <div>
-        Object-classes
+        Object <br />
+        -- Data member <br />
+        -- Member function
     </div>
   )
 }
