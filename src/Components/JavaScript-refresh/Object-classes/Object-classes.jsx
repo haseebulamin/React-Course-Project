@@ -4,8 +4,10 @@ export default function ObjectClasses() {
     const student = {
         name: "Haseeb Ul Amin",
         age: 18,
+        role: "Dev",
         greet(msg){
             console.log(msg);
+            console.log(this.role);
         }
     }
     console.log(student);
