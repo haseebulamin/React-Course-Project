@@ -1,10 +1,10 @@
 import './App.css';
-import Function from './Components/JavaScript-refresh/Function/Function';
+import ObjectClasses from './Components/JavaScript-refresh/Object-classes/Object-classes';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Function/>
+      <ObjectClasses/>
       </header>
     </div>
   );
