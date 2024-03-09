@@ -7,7 +7,20 @@ export default function Array() {
     console.log(hobbies[1]);
     console.log(hobbies[2]);
     console.log(hobbies[3]);
+
+    // Array Methods 
+    hobbies.push("Ludo");
+    console.log(hobbies);
+
+    const index = hobbies.findIndex((item)=>{
+      return item === "Hockey";
+    })
+    console.log(index);
+    
   return (
-    <div>Array</div>
+    <div>
+      Array <br />
+      -- Simple array 
+    </div>
   )
 }
