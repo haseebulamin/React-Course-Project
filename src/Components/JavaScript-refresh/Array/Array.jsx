@@ -9,18 +9,24 @@ export default function Array() {
     console.log(hobbies[3]);
 
     // Array Methods 
-    hobbies.push("Ludo");
+    hobbies.push("Ludo"); // Add value in array
     console.log(hobbies);
 
-    const index = hobbies.findIndex((item)=>{
+    const index = hobbies.findIndex((item)=> { // finding ndex of value
       return item === "Hockey";
     })
     console.log(index);
     
+    const maphobby = hobbies.map((item)=> item + "!"); // for update array
+    console.log(maphobby);
   return (
     <div>
       Array <br />
-      -- Simple array 
+      -- Simple array <br />
+      -- Array Methods <br />
+      -push <br />
+      -findIndex <br />
+      -map
     </div>
   )
 }
