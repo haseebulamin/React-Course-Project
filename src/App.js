@@ -1,10 +1,10 @@
 import './App.css';
-import Classes from './Components/JavaScript-refresh/Object-classes/Classes';
+import Array from './Components/JavaScript-refresh/Array/Array';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Classes/>
+      <Array/>
       </header>
     </div>
   );
