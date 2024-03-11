@@ -16,9 +16,23 @@ export default function Destructuring() {
         name: "Ibrar",
         Age: 20
     }
-    console.log(user.name)
-    console.log(user.Age)
+    let name1 = user.name;
+    let age1 = user.Age;
+    console.log(name1,age1)
+    
+    // this code in preerable instead of above
+    let {name,age} = {
+        name: "Roy",
+        age: 19
+    }
+    console.log(name,age)
   return (
-    <div>Destructuring</div>
+    <div>
+        Destructuring
+        --partation on array
+        --array Destructure
+        --partation on object
+        --object Destructure
+    </div>
   )
 }
