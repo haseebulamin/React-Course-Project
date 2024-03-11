@@ -1,10 +1,10 @@
 import './App.css';
-import Destructuring from './Components/JavaScript-refresh/Destructuring/Destructuring';
+import ControlStructure from './Components/JavaScript-refresh/Control-structure/ControlStructure';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Destructuring/>
+      <ControlStructure/>
       </header>
     </div>
   );
