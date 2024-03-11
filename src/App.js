@@ -1,10 +1,10 @@
 import './App.css';
-import Array from './Components/JavaScript-refresh/Array/Array';
+import ControlStructure from './Components/JavaScript-refresh/Control-structure/ControlStructure';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Array/>
+      <ControlStructure/>
       </header>
     </div>
   );
