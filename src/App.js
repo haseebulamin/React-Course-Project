@@ -1,10 +1,10 @@
 import './App.css';
-import SpreadOperator from './Components/JavaScript-refresh/Spread-Operator/SpreadOperator';
+import DOM from './Components/JavaScript-refresh/DOM/DOM';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <SpreadOperator/>
+       <DOM/>
       </header>
     </div>
   );
