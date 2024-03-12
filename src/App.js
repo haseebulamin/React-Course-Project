@@ -1,10 +1,10 @@
 import './App.css';
-import ControlStructure from './Components/JavaScript-refresh/Control-structure/ControlStructure';
+import DOM from './Components/JavaScript-refresh/DOM/DOM';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <ControlStructure/>
+       <DOM/>
       </header>
     </div>
   );
