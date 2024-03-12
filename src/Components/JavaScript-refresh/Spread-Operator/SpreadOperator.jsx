@@ -7,6 +7,10 @@ export default function SpreadOperator() {
     let margeArray = [hobbies,newhobbies]; // simple marge
     console.log(margeArray);
 
+    // marge with spread operator
+    let margeArray1 = [...hobbies,...newhobbies];
+    console.log(margeArray1);
+
   return (
     <div>
         Spread Operator
