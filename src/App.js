@@ -1,10 +1,10 @@
 import './App.css';
-import ControlStructure from './Components/JavaScript-refresh/Control-structure/ControlStructure';
+import SpreadOperator from './Components/JavaScript-refresh/Spread-Operator/SpreadOperator';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <ControlStructure/>
+       <SpreadOperator/>
       </header>
     </div>
   );
