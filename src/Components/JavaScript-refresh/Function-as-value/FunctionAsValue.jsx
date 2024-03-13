@@ -5,14 +5,22 @@ export default function FunctionAsValue() {
     {
      console.log("Time out!");   
     }
+
     const handleTimeout2 = ()=>{
      console.log("Time out .... Again!");
     }
+
     setTimeout(handleTimeout1, 2000);
     setTimeout(handleTimeout2, 3000);
-    setTimeout(()=>{
+
+    setTimeout( () => {
      console.log("More Timing out!");   
-    }, 4000)
+    }, 4000);
+
+    function greet(greetfn) {
+        greetfn();
+    }
+    greet(()=>{console.log("hello i'm greet")});
   return (
     <div>
         Function As Value
