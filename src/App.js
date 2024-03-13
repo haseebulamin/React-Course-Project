@@ -1,5 +1,5 @@
 import './App.css';
-import FunctionAsValue from './Components/JavaScript-refresh/Function-as-value/FunctionAsValue';
+import FunctionAsValue from './Components/JavaScript-refresh/Function/FunctionAsValue';
 function App() {
   return (
     <div className="App">
