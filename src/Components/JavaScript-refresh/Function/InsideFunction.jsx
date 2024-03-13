@@ -10,6 +10,16 @@ export default function InsideFunction() {
         greet(value);
     }
     init("Hello! Function inside function");
+
+    function outer() // without parameter
+    {
+        function inner() {
+            console.log("i am inner function")
+        }
+        inner();
+    }
+    outer();
+
   return (
     <div>
         Function inside function
