@@ -1,10 +1,10 @@
 import './App.css';
-import DOM from './Components/JavaScript-refresh/DOM/DOM';
+import FunctionAsValue from './Components/JavaScript-refresh/Function-as-value/FunctionAsValue';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <DOM/>
+       <FunctionAsValue/>
       </header>
     </div>
   );
