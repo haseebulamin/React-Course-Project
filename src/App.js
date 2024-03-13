@@ -1,10 +1,10 @@
 import './App.css';
-import DOM from './Components/JavaScript-refresh/DOM/DOM';
+import ReferenceVsPrimitve from './Components/JavaScript-refresh/Reference-VS-Primitve/ReferenceVsPrimitve';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <DOM/>
+       <ReferenceVsPrimitve/>
       </header>
     </div>
   );
