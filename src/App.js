@@ -1,10 +1,10 @@
 import './App.css';
-import GetInboxValue from './Components/React-roadmap-Docs/GetInboxValue';
+import PrintValue from './Components/React-roadmap-Docs/PrintValue';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <GetInboxValue/>
+      <PrintValue/>
       </header>
     </div>
   );
