@@ -1,10 +1,10 @@
 import './App.css';
-import RenderingCondition from './Components/React-roadmap-Docs/RenderingCondition';
+import Teacher from './Components/React-roadmap-Docs/Props/Teacher';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <RenderingCondition/>
+        <Teacher/>
       </header>
     </div>
   );
