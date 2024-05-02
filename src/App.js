@@ -1,10 +1,10 @@
 import './App.css';
-import Map from './Components/React-roadmap-Docs/Map';
+import Teacher from './Components/React-roadmap-Docs/Props/Teacher';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Map/>
+       <Teacher/>
       </header>
     </div>
   );
