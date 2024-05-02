@@ -1,10 +1,10 @@
 import './App.css';
-import UseEffect from './Components/React-roadmap-Docs/Hooks/UseEffect';
+import Map from './Components/React-roadmap-Docs/Map';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseEffect/>
+       <Map/>
       </header>
     </div>
   );
