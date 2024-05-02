@@ -1,10 +1,10 @@
 import './App.css';
-import ControlledComponent from './Components/React-roadmap-Docs/ControlledComponent';
+import ProjectComplete from './Components/React-roadmap-Docs/ProjectComplete';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <ControlledComponent/>
+       <ProjectComplete/>
       </header>
     </div>
   );
