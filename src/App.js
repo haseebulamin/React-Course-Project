@@ -1,10 +1,10 @@
 import './App.css';
-import UseRef from './Components/React-roadmap-Docs/Hooks/UseRef';
+import ControlledComponent from './Components/React-roadmap-Docs/ControlledComponent';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <UseRef/>
+       <ControlledComponent/>
       </header>
     </div>
   );
