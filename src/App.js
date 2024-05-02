@@ -1,10 +1,10 @@
 import './App.css';
-import Teacher from './Components/React-roadmap-Docs/Props/Teacher';
+import UseEffect from './Components/React-roadmap-Docs/Hooks/UseEffect';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Teacher/>
+        <UseEffect/>
       </header>
     </div>
   );
