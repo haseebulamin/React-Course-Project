@@ -1,10 +1,10 @@
 import './App.css';
-import UncontrolledComponent from './Components/React-roadmap-Docs/UncontrolledComponent';
+import UseParam from './Components/React-roadmap-Docs/Hooks/UseParam';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <UncontrolledComponent/>
+       <UseParam/>
       </header>
     </div>
   );
