@@ -1,10 +1,10 @@
 import './App.css';
-import UseParam from './Components/React-roadmap-Docs/Hooks/UseParam';
+import SearchParam from './Components/React-roadmap-Docs/Hooks/SearchParam';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <UseParam/>
+       <SearchParam/>
       </header>
     </div>
   );
