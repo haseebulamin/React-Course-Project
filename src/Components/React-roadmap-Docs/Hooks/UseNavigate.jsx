@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 export default function UseNavigate() {
     const navigate = useNavigate();
+    console.log(navigate);
   return (
     <div>
         <h1>UseNavigate</h1>
