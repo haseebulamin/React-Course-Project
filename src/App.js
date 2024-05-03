@@ -1,10 +1,10 @@
 import './App.css';
-import UseNavigate from './Components/React-roadmap-Docs/Hooks/UseNavigate';
+import UseLocation from './Components/React-roadmap-Docs/Hooks/UseLocation';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <UseNavigate/>
+       <UseLocation/>
       </header>
     </div>
   );
