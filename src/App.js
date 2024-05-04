@@ -1,10 +1,10 @@
 import './App.css';
-import ProtectedRoute from './Components/React-roadmap-Docs/Hooks/ProtectedRoute';
+import DynamicRouting from './Components/React-roadmap-Docs/Hooks/DynamicRouting';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <ProtectedRoute/>
+        <DynamicRouting/>
       </header>
     </div>
   );
