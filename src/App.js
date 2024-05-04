@@ -1,10 +1,10 @@
 import './App.css';
-import Post from './Components/React-roadmap-Docs/APICall/Post';
+import DeleteApiData from './Components/React-roadmap-Docs/APICall/DeleteApiData';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Post/>
+        <DeleteApiData/>
       </header>
     </div>
   );
