@@ -1,10 +1,10 @@
 import './App.css';
-import ASyncAwait from './Components/React-roadmap-Docs/APICall/ASyncAwait';
+import Post from './Components/React-roadmap-Docs/APICall/Post';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ASyncAwait/>
+        <Post/>
       </header>
     </div>
   );
