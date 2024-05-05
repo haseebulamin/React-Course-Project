@@ -1,10 +1,10 @@
 import './App.css';
-import DeleteApiData from './Components/React-roadmap-Docs/APICall/DeleteApiData';
+import StateWithObject from './Components/React-roadmap-Docs/StateWithObject';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <DeleteApiData/>
+        <StateWithObject/>
       </header>
     </div>
   );
