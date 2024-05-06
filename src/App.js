@@ -1,10 +1,10 @@
 import './App.css';
-import UseCallBack from './Components/React-roadmap-Docs/Hooks/UseCallBack';
+import Alert from './Components/React-roadmap-Docs/Alert';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <UseCallBack/>
+       <Alert/>
       </header>
     </div>
   );
