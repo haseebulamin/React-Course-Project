@@ -1,10 +1,10 @@
 import './App.css';
-import Prompt from './Components/React-roadmap-Docs/Prompt';
+import Confirm from './Components/React-roadmap-Docs/Confirm';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Prompt/>
+       <Confirm/>
       </header>
     </div>
   );
