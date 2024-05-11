@@ -9,10 +9,23 @@ export default function Practice() {
     
     setInterval(() => {
       setTech("2")
-    }, 1000);
+    }, 500);
     setInterval(() => {
       setTech("1")
+    }, 1000);
+    setInterval(() => {
+      setTech("Register")
+    }, 1500);
+    setInterval(() => {
+      setTech("Now!")
     }, 2000);
+    setInterval(() => {
+      setTech("For")
+    }, 2500);
+    setInterval(() => {
+      setTech("TegaThon")
+    }, 3000);
+    
 
   }
 
@@ -20,7 +33,7 @@ export default function Practice() {
     <div>
 
        <h1>{tech}</h1>
-       <button onClick={flow}>Submit</button>
+       <button onClick={flow}>What?</button>
 
       {/* <span>Name:</span><input type="text" placeholder='Name'/><br />
       <span>Email:</span><input type="text" placeholder='Email'/><br />
