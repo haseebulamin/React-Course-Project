@@ -34,12 +34,6 @@ export default function Practice() {
        <h1>Are you Ready for tegathon?</h1>
        <h1>{tech}</h1>
        <button onClick={flow}>What?</button>
-       <button onClick={flow}>What?</button>
-       <button onClick={flow}>What?</button>
-       <button onClick={flow}>What?</button>
-
-
-
 
       {/* <span>Name:</span><input type="text" placeholder='Name'/><br />
       <span>Email:</span><input type="text" placeholder='Email'/><br />
