@@ -33,7 +33,8 @@ export default function Practice() {
 
   return (
     <div>
-       <h1>Are you Ready for tegathon?</h1>
+       <h1>Are you Ready for </h1>
+       <p>tegathon?</p>
        <h1>{tech}</h1>
        <button onClick={flow}>What?</button>
        <button onClick={good}></button>
