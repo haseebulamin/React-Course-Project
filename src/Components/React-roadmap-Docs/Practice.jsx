@@ -1,50 +1,26 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react';
 
 export default function Practice() {
   const [tech, setTech] = useState("");
 
-  const flow = ()=>{
-    
-      setTech("3")
-    
-    setInterval(() => {
-      setTech("2")
+  const flow = () => {
+    const messages = ["3", "2", "1", "Register", "Now!", "For", "TegaThon"];
+    let index = 0;
+
+    const intervalId = setInterval(() => {
+      setTech(messages[index]);
+      index++;
+
+      if (index === messages.length) {
+        clearInterval(intervalId);
+      }
     }, 500);
-    setInterval(() => {
-      setTech("1")
-    }, 1000);
-    setInterval(() => {
-      setTech("Register")
-    }, 1500);
-    setInterval(() => {
-      setTech("Now!")
-    }, 2000);
-    setInterval(() => {
-      setTech("For")
-    }, 2500);
-    setInterval(() => {
-      setTech("TegaThon")
-    }, 3000);
-    
-  const good =()=>{
-    alert("Good job");
-  }
-  }
+  };
 
   return (
     <div>
-       <h1>Are you Ready for </h1>
-       <p>tegathon?</p>
-       <h1>{tech}</h1>
-       <button onClick={flow}>What?</button>
-       <button onClick={good}></button>
-
-
-      {/* <span>Name:</span><input type="text" placeholder='Name'/><br />
-      <span>Email:</span><input type="text" placeholder='Email'/><br />
-      <span>NUmber:  </span><input type="text" placeholder='Number'/><br />
-       */}
-
+      <h1>{tech}</h1>
+      <button onClick={flow}>Start?</button>
     </div>
-  )
+  );
 }
