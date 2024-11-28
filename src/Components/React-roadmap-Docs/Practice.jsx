@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from './Button';
 
 export default function Practice() {
   const [tech, setTech] = useState("");
@@ -21,6 +22,11 @@ export default function Practice() {
     <div>
       <h1>{tech}</h1>
       <button onClick={flow}>Start?</button>
+      <Button 
+        onClick={flow} 
+        style={{ backgroundColor: "blue", color: "white" }} 
+        className="custom-class"
+      >Click Me</Button>
     </div>
   );
 }
