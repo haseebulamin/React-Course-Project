@@ -9,6 +9,10 @@ export default function Color() {
   return (
     <div>
         <h1 id="color">Hello Color</h1>
+        <h1 id="color">Hello Color</h1>
+        <h1 id="color">Hello Color</h1>
+        <h1 id="color">Hello Color</h1>
+        <h1 id="color">Hello Color</h1>
         <button onClick={color}>Click</button>
     </div>
   )
