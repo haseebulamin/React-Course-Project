@@ -1,10 +1,10 @@
 import './App.css';
-import Color from './Components/React-roadmap-Docs/Color';
+import MapRevision from './Components/React-roadmap-Docs/MapRevision';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Color/>
+       <MapRevision/>
       </header>
     </div>
   );
