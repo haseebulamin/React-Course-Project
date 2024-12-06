@@ -13,7 +13,17 @@ export default function MapRevision() {
             name: 'Matt',
             email: "Matt@gmail.com",
             contact: "03425768782"
-        }
+        },
+        {
+          name: 'haseeb',
+          email: "haseeb@gmail.com",
+          contact: "03425675782"
+      },
+      {
+        name: 'ali',
+        email: "ali@gmail.com",
+        contact: "03425468782"
+    }
     ]
 
   return (
