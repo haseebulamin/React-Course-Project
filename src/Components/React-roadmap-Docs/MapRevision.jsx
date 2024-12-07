@@ -23,7 +23,17 @@ export default function MapRevision() {
         name: 'ali',
         email: "ali@gmail.com",
         contact: "03425468782"
-    }
+    },
+    {
+      name: 'muaaz',
+      email: "muaaz@gmail.com",
+      contact: "03423368782"
+  },
+  {
+    name: 'muaaz',
+    email: "muaaz@gmail.com",
+    contact: "03400068782"
+}
     ]
 
   return (
