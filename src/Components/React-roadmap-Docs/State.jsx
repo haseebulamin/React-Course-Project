@@ -22,6 +22,10 @@ export default function State() {
     <button onClick={red}>red</button> 
     <button onClick={orange}>orange</button> 
     <button onClick={blue}>blue</button> 
+    <button onClick={yellow}>yelloe</button> 
+    <button onClick={red}>red</button> 
+    <button onClick={orange}>orange</button> 
+    <button onClick={blue}>blue</button> 
     </div>
   )
 }
